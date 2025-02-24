@@ -1,66 +1,117 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<a name="readme-top"></a>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+  <h3 align="center">Keyboard Blog Management - Code Test</h3>
 
-## About Laravel
+<!-- TABLE OF CONTENTS -->
+<details open>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about">About</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<!-- ABOUT THE PROJECT -->
+## About
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Project Screen Shot][screenshot]
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<div>
+<h3>Keyboard Blog Management - Code Test</h3>
+<p align="justify">Meet Keyboard Blog Management – Your All-in-One Hub for Custom Keyboards
 
-## Learning Laravel
+Welcome to Keyboard Blog Management , the ultimate platform designed to streamline your journey into the world of custom keyboards. Whether you’re a hobbyist, a professional, or just curious about mechanical keyboards, our blog is here to simplify the process, boost your creativity, and keep you connected with a thriving community of enthusiasts.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+From in-depth guides on building your first custom keyboard to expert tips on optimizing performance and aesthetics, we’ve got everything you need to stay ahead of the curve. Our goal? To help you focus less on the hassle and more on what matters most—crafting the perfect typing experience.</p>
+</div>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Built With
 
-## Laravel Sponsors
+This Project is built with :
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+* [![ReactJs][React.js]][React-url]
+* [![MySQL DB][MySQL]][MySQL-url]
+* [![Laravel][Laravel]][Laravel-url]
+* [![PHP][PHP]][PHP-url]
+* [![TailwindCSS][TailwindCSS]][TailwindCSS-url]
 
-### Premium Partners
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Contributing
+Follow the instruction below to install the project locally.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Installation
 
-## Code of Conduct
+Follow the steps below for installation of this project.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1. Clone the repo.
+   ```sh
+   git clone https://github.com/sodaAPI/alturian-coding-test.git
+   ```
+2. Install NPM packages in ./alturian-coding-test/client/
+   ```sh
+   npm install
+   ```
+3. Install composer packages in ./alturian-coding-test/
+   ```sh
+   composer install
+   ```
+4. Setting your databases in .env.
+   ```sh
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=db_alturian
+   DB_USERNAME=root
+   DB_PASSWORD=
+   ```
+5. Migrate Database
+   ```sh
+   php artisan migrate
+   ```
+6. Seed Database
+   ```sh
+   php artisan db:seed
+   ```
+7. Run your MySQL server.
+8. Start server ./alturian-coding-test/
+   ```sh
+   php artisan serve
+   ```
+9. Start client in ./alturian-coding-test/client/
+   ```sh
+   npm run dev
+   ```
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+   
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[screenshot]: /client-side/src/Images/hero-bg.png
+[React.js]: https://img.shields.io/badge/React_Js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[TailwindCSS]: https://img.shields.io/badge/TailwindCSS-20232A?style=for-the-badge&logo=TailwindCSS&logoColor=06B6D4
+[MySQL]: https://img.shields.io/badge/MySQL-20232A?style=for-the-badge&logo=mysql&logoColor=4479A1
+[Laravel]: https://img.shields.io/badge/Laravel-20232A?style=for-the-badge&logo=laravel&logoColor=FF2D20
+[PHP]: https://img.shields.io/badge/PHP-20232A?style=for-the-badge&logo=php&logoColor=777BB4
+[PHP-url]: https://www.php.net/
+[Laravel-url]: https://laravel.com/
+[TailwindCSS-url]: https://tailwindcss.com/
+[MySQL-url]: https://www.mysql.com/
+[React-url]: https://reactjs.org/
